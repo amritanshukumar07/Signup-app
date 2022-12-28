@@ -3,7 +3,9 @@ const https = require("https");
 const bodyParser = require("body-parser");
 const request = require("request");
 const app = express();
+var path = require('path');
 
+app.use(express.static(path.resolve('./public')));
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true})) ;
 
