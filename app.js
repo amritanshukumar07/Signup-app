@@ -62,7 +62,16 @@ app.post("/failure",function(req,res){
 app.listen(process.env.PORT || 3000, function(){
   console.log("server is rumming on port 3000");
 });
-
+{
+  "version": 2,
+  "name": "music-album",
+  "builds": [
+     { "src": "app.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+     { "src": "/(.*)", "dest": "/app.js" }
+  ]
+}
 
 // b3c457d1de1be2c8015e72579c907c0b-us17c
 
