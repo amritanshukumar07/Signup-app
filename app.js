@@ -37,7 +37,7 @@ const data ={
 const url = "https://us17.api.mailchimp.com/3.0/lists/a9e218d66d"
 const options ={
   method:"POST",
-  auth:"amritanshu:b3c457d1de1be2c8015e72579c907c0b-us17"
+  auth:"amritanshu:7c71551b010de18412d70e265637dbdc-us17"
 }
 
 
@@ -66,7 +66,7 @@ app.listen(process.env.PORT || 3000, function(){
 });
 
 
-
+ //7c71551b010de18412d70e265637dbdc-us17
 // b3c457d1de1be2c8015e72579c907c0b-us17c
 
 // a9e218d66d
